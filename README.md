@@ -90,9 +90,12 @@ Schedule the run with the same `locations` or `hotelUrls` and future dates, then
 **Can I scrape one specific hotel?**
 Yes. Paste its Google Hotels link into `hotelUrls`.
 
+**Can I get a price for every date for one hotel?**
+Yes, with the [Google Hotels Price Calendar](https://github.com/smoldesk/google-hotel-price-calendar): the cheapest rate for each check-in date up to a year ahead.
+
 **Do I need an account or a proxy?**
-No. If Google rate-limits a run, it switches to Apify datacenter proxies on its own.
+No. Requests go out from the run's own IP. If Google starts answering with captcha pages, the Actor slows down and stops early with what it has.
 
 ## More scrapers
 
-Google Hotels is one of 13 no-login scrapers by Smoldesk Studios. See the full list: [smoldesk/apify-scrapers](https://github.com/smoldesk/apify-scrapers).
+Google Hotels is one of 14 no-login scrapers by Smoldesk Studios. See the full list: [smoldesk/apify-scrapers](https://github.com/smoldesk/apify-scrapers).
