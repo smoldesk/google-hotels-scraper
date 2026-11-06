@@ -1,6 +1,8 @@
 # Google Hotels Scraper
 
-Scrape Google Hotels prices, ratings and booking sites for any city, neighbourhood or landmark. Your dates, guests and currency. No login. Runs on [Apify](https://apify.com/smoldesk/google-hotels-scraper).
+![Google Hotels Scraper](https://raw.githubusercontent.com/smoldesk/apify-scrapers/main/assets/google-hotels/banner.webp)
+
+Scrape Google Hotels prices, ratings and booking sites for any city, neighborhood or landmark. Your dates, guests and currency. No login. Runs on [Apify](https://apify.com/smoldesk/google-hotels-scraper).
 
 ## What you get
 
@@ -73,7 +75,7 @@ Hotels Google does not return are not charged.
 
 - Prices are what Google Hotels shows for your dates. Some hotels show no price. Use `onlyWithPrice` to drop them.
 - Google picks which booking sites to list, usually 3 to 6. The lowest search price may come from a site missing from that list.
-- Google lists up to a few thousand hotels per location. Search by neighbourhood for deeper coverage of big cities.
+- Google lists up to a few thousand hotels per location. Search by neighborhood for deeper coverage of big cities.
 - Review text is not included. Ratings, breakdown and aspects are.
 
 ## FAQ
