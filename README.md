@@ -62,12 +62,12 @@ Export as JSON, CSV or Excel, or pipe it into Google Sheets, Make, Zapier or n8n
 
 ## Pricing
 
-Pay per result. No monthly fee.
+Pay per result. No monthly fee. Prices drop on paid Apify plans.
 
-| Result | Per 1,000 |
-|---|---|
-| Hotel | $2.50 |
-| Booking-site prices for a hotel (optional) | +$2 |
+| Result (per 1,000) | Free | Starter | Scale | Business |
+|---|---|---|---|---|
+| Hotel | $2.50 | $2.50 | $2.20 | $1.90 |
+| Booking-site prices for a hotel (optional add-on) | +$2.00 | +$2.00 | +$1.75 | +$1.50 |
 
 Hotels Google does not return are not charged.
 
